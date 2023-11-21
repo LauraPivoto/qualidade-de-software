@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>aula_karate.star_wars.sw</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-11-13 11:25:06 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Testando retorno para o planeta 60</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:8]"><span>[2:8]</span> <span>Testando retorno para os veículos</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">aula_karate/star_wars/sw.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Testando API do Star Wars</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Testando retorno para o planeta 60</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2323</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://swapi.dev/api/planets/60&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">54</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2269</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">11:25:01.754 request:
+1 &gt; GET https://swapi.dev/api/planets/60
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:25:03.837 response time in milliseconds: 2066
+1 &lt; 200
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Mon, 13 Nov 2023 14:25:05 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept, Cookie
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;bf079c439ca6e4f158fcc0144fc8323d&quot;
+1 &lt; Allow: GET, HEAD, OPTIONS
+1 &lt; Strict-Transport-Security: max-age=15768000
+{&quot;films&quot;:[],&quot;edited&quot;:&quot;2014-12-20T20:58:18.525000Z&quot;,&quot;created&quot;:&quot;2014-12-20T20:18:36.256000Z&quot;,&quot;climate&quot;:&quot;unknown&quot;,&quot;rotation_period&quot;:&quot;unknown&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/planets\/60\/&quot;,&quot;population&quot;:&quot;unknown&quot;,&quot;orbital_period&quot;:&quot;unknown&quot;,&quot;surface_water&quot;:&quot;unknown&quot;,&quot;diameter&quot;:&quot;unknown&quot;,&quot;gravity&quot;:&quot;unknown&quot;,&quot;name&quot;:&quot;Umbara&quot;,&quot;residents&quot;:[&quot;https:\/\/swapi.dev\/api\/people\/82\/&quot;],&quot;terrain&quot;:&quot;unknown&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:8]</span>
+                <span class="scenario-name">Testando retorno para os veículos</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2884</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://swapi.dev/api/vehicles/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2884</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">11:25:03.848 request:
+1 &gt; GET https://swapi.dev/api/vehicles/
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:25:06.728 response time in milliseconds: 2878
+1 &lt; 200
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Mon, 13 Nov 2023 14:25:08 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept, Cookie
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;07ce0a7ff4d543e56c3c64af89bfc766&quot;
+1 &lt; Allow: GET, HEAD, OPTIONS
+1 &lt; Strict-Transport-Security: max-age=15768000
+{&quot;next&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/?page=2&quot;,&quot;previous&quot;:null,&quot;count&quot;:39,&quot;results&quot;:[{&quot;max_atmosphering_speed&quot;:&quot;30&quot;,&quot;cargo_capacity&quot;:&quot;50000&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/1\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/5\/&quot;],&quot;passengers&quot;:&quot;30&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.661000Z&quot;,&quot;consumables&quot;:&quot;2 months&quot;,&quot;created&quot;:&quot;2014-12-10T15:36:25.724000Z&quot;,&quot;length&quot;:&quot;36.8 &quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/4\/&quot;,&quot;manufacturer&quot;:&quot;Corellia Mining Corporation&quot;,&quot;crew&quot;:&quot;46&quot;,&quot;vehicle_class&quot;:&quot;wheeled&quot;,&quot;cost_in_credits&quot;:&quot;150000&quot;,&quot;name&quot;:&quot;Sand Crawler&quot;,&quot;model&quot;:&quot;Digger Crawler&quot;},{&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;cargo_capacity&quot;:&quot;50&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/1\/&quot;],&quot;passengers&quot;:&quot;1&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.665000Z&quot;,&quot;consumables&quot;:&quot;0&quot;,&quot;created&quot;:&quot;2014-12-10T16:01:52.434000Z&quot;,&quot;length&quot;:&quot;10.4 &quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/6\/&quot;,&quot;manufacturer&quot;:&quot;Incom Corporation&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;cost_in_credits&quot;:&quot;14500&quot;,&quot;name&quot;:&quot;T-16 skyhopper&quot;,&quot;model&quot;:&quot;T-16 skyhopper&quot;},{&quot;max_atmosphering_speed&quot;:&quot;250&quot;,&quot;cargo_capacity&quot;:&quot;5&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/1\/&quot;],&quot;passengers&quot;:&quot;1&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.668000Z&quot;,&quot;consumables&quot;:&quot;unknown&quot;,&quot;created&quot;:&quot;2014-12-10T16:13:52.586000Z&quot;,&quot;length&quot;:&quot;3.4 &quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/7\/&quot;,&quot;manufacturer&quot;:&quot;SoroSuub Corporation&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;cost_in_credits&quot;:&quot;10550&quot;,&quot;name&quot;:&quot;X-34 landspeeder&quot;,&quot;model&quot;:&quot;X-34 landspeeder&quot;},{&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;cargo_capacity&quot;:&quot;65&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/1\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/2\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/3\/&quot;],&quot;passengers&quot;:&quot;0&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.670000Z&quot;,&quot;consumables&quot;:&quot;2 days&quot;,&quot;created&quot;:&quot;2014-12-10T16:33:52.860000Z&quot;,&quot;length&quot;:&quot;6.4&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/8\/&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;vehicle_class&quot;:&quot;starfighter&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;name&quot;:&quot;TIE\/LN starfighter&quot;,&quot;model&quot;:&quot;Twin Ion Engine\/Ln Starfighter&quot;},{&quot;max_atmosphering_speed&quot;:&quot;650&quot;,&quot;cargo_capacity&quot;:&quot;10&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/2\/&quot;],&quot;passengers&quot;:&quot;0&quot;,&quot;pilots&quot;:[&quot;https:\/\/swapi.dev\/api\/people\/1\/&quot;,&quot;https:\/\/swapi.dev\/api\/people\/18\/&quot;],&quot;edited&quot;:&quot;2014-12-20T21:30:21.672000Z&quot;,&quot;consumables&quot;:&quot;none&quot;,&quot;created&quot;:&quot;2014-12-15T12:22:12Z&quot;,&quot;length&quot;:&quot;4.5&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/14\/&quot;,&quot;manufacturer&quot;:&quot;Incom corporation&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;vehicle_class&quot;:&quot;airspeeder&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;name&quot;:&quot;Snowspeeder&quot;,&quot;model&quot;:&quot;t-47 airspeeder&quot;},{&quot;max_atmosphering_speed&quot;:&quot;850&quot;,&quot;cargo_capacity&quot;:&quot;none&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/2\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/3\/&quot;],&quot;passengers&quot;:&quot;0&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.675000Z&quot;,&quot;consumables&quot;:&quot;2 days&quot;,&quot;created&quot;:&quot;2014-12-15T12:33:15.838000Z&quot;,&quot;length&quot;:&quot;7.8&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/16\/&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;vehicle_class&quot;:&quot;space\/planetary bomber&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;name&quot;:&quot;TIE bomber&quot;,&quot;model&quot;:&quot;TIE\/sa bomber&quot;},{&quot;max_atmosphering_speed&quot;:&quot;60&quot;,&quot;cargo_capacity&quot;:&quot;1000&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/2\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/3\/&quot;],&quot;passengers&quot;:&quot;40&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.677000Z&quot;,&quot;consumables&quot;:&quot;unknown&quot;,&quot;created&quot;:&quot;2014-12-15T12:38:25.937000Z&quot;,&quot;length&quot;:&quot;20&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/18\/&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Imperial Department of Military Research&quot;,&quot;crew&quot;:&quot;5&quot;,&quot;vehicle_class&quot;:&quot;assault walker&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;name&quot;:&quot;AT-AT&quot;,&quot;model&quot;:&quot;All Terrain Armored Transport&quot;},{&quot;max_atmosphering_speed&quot;:&quot;90&quot;,&quot;cargo_capacity&quot;:&quot;200&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/2\/&quot;,&quot;https:\/\/swapi.dev\/api\/films\/3\/&quot;],&quot;passengers&quot;:&quot;0&quot;,&quot;pilots&quot;:[&quot;https:\/\/swapi.dev\/api\/people\/13\/&quot;],&quot;edited&quot;:&quot;2014-12-20T21:30:21.679000Z&quot;,&quot;consumables&quot;:&quot;none&quot;,&quot;created&quot;:&quot;2014-12-15T12:46:42.384000Z&quot;,&quot;length&quot;:&quot;2&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/19\/&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Imperial Department of Military Research&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;vehicle_class&quot;:&quot;walker&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;name&quot;:&quot;AT-ST&quot;,&quot;model&quot;:&quot;All Terrain Scout Transport&quot;},{&quot;max_atmosphering_speed&quot;:&quot;1500&quot;,&quot;cargo_capacity&quot;:&quot;10&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/2\/&quot;],&quot;passengers&quot;:&quot;0&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.681000Z&quot;,&quot;consumables&quot;:&quot;1 day&quot;,&quot;created&quot;:&quot;2014-12-15T12:58:50.530000Z&quot;,&quot;length&quot;:&quot;7&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/20\/&quot;,&quot;manufacturer&quot;:&quot;Bespin Motors&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;cost_in_credits&quot;:&quot;75000&quot;,&quot;name&quot;:&quot;Storm IV Twin-Pod cloud car&quot;,&quot;model&quot;:&quot;Storm IV Twin-Pod&quot;},{&quot;max_atmosphering_speed&quot;:&quot;100&quot;,&quot;cargo_capacity&quot;:&quot;2000000&quot;,&quot;films&quot;:[&quot;https:\/\/swapi.dev\/api\/films\/3\/&quot;],&quot;passengers&quot;:&quot;500&quot;,&quot;pilots&quot;:[],&quot;edited&quot;:&quot;2014-12-20T21:30:21.684000Z&quot;,&quot;consumables&quot;:&quot;Live food tanks&quot;,&quot;created&quot;:&quot;2014-12-18T10:44:14.217000Z&quot;,&quot;length&quot;:&quot;30&quot;,&quot;url&quot;:&quot;https:\/\/swapi.dev\/api\/vehicles\/24\/&quot;,&quot;manufacturer&quot;:&quot;Ubrikkian Industries Custom Vehicle Division&quot;,&quot;crew&quot;:&quot;26&quot;,&quot;vehicle_class&quot;:&quot;sail barge&quot;,&quot;cost_in_credits&quot;:&quot;285000&quot;,&quot;name&quot;:&quot;Sail barge&quot;,&quot;model&quot;:&quot;Modified Luxury Sail Barge&quot;}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
